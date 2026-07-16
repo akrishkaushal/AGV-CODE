@@ -154,7 +154,7 @@ void leftEncoderISR()  { leftWheel.handleInterrupt(); }
 void rightEncoderISR() { rightWheel.handleInterrupt(); }
 
 unsigned long previousTime = 0;
-const float LOOP_TIME_SEC = 0.1; // 100ms execution step
+const float LOOP_TIME_SEC = 0.2; // 200ms execution step
 
 void setup() {
     Serial.begin(115200);
